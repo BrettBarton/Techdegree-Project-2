@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <!--PUT GOOGLE FONT HERE-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--HEADER-->
+        <header class="container-header">
+            <h1 class="header-name">Brett Barton</h1>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header><!--END HEADER-->
+        <!--INTRO START-->
+        <div class="container-intro">
+            <img class="profile-img" src="images/responsive-layout-profile.png"> <!--PICTURE HERE-->
+            <p class="intro-text">
+                Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put my skills to use!
+            </p>
+        </div><!--INTRO END-->
+        <!--MAIN PORTFOLIO START-->
+        <div class="portfolio" id="portfolio-section">
+            <h2 class="main-portfolio-header">Portfolio</h2>
+                <div class="container-portfolio">
+                    <div class="portfolio-marketing port-item">
+                        <img  class="portfolio-img" src="images/portfolio-1.png"><!--PICTURE HERE-->
+                        <h3 class="item-heading">Marketing Page</h3>
+                        <p>This project shows the front page of a marketing website meant for a specfic business I'm interested in.</p>
+                    </div>
+                    <div class="portfolio-search port-item">
+                        <img class="portfolio-img" src="images/portfolio-2.png"><!--PICTURE HERE-->
+                        <h3 class="item-heading">Search Page</h3>
+                        <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+                    </div>
+                    <div class="portfolio-travel port-item">
+                        <img class="portfolio-img" src="images/portfolio-3.png"><!--PICTURE HERE-->
+                        <h3 class="item-heading">Travel App</h3>
+                        <p>This project compares travel times based on diefferent transportation methods and tells you the best one.</p>
+                    </div>
+                    <div class="portfolio-favorite port-item">
+                        <img class="portfolio-img" src="images/portfolio-4.png"><!--PICTURE HERE-->
+                        <h3 class="item-heading">Map of Favorite Spots</h3>
+                        <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it yourself walking tour.</p>
+                    </div>
+                    <div class="portfolio-gallery port-item">
+                        <img class="portfolio-img" src="images/portfolio-5.png"><!--PICTURE HERE-->
+                        <h3 class="item-heading">Photo Gallery</h3>
+                        <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+                    </div>
+                    <div class="portfolio-calc port-item">
+                        <img class="portfolio-img" src="images/portfolio-6.png"><!--PICTURE HERE-->
+                        <h3 class="item-heading">Calculator</h3>
+                        <p>Someone can enter in the numbers they want, and pree the big blue button and get the result.</p>
+                    </div>
+            </div><!--END PORTFOLIO CONTAINER-->
+        </div><!--END PORTFOLIO-->
+        <div class="contact" id="contact-section">
+                <h2 class="main-portfolio-header">Contact</h2>
+                <p>If you are interested in chatting or want more information about what I've been working on, I;d love to hear from you!</p>
+                <!--INSERT CLICKABLE PHONE NUMBER-->
+                <!--INSERT CLICKABLE EMAIL ADDRESS-->
+        </div>
+        <div class="footer">
+            <span class="studentName"><a href="index.html">Brett Barton</a></span>
+            <span class="backtoTop"><a href="index.html">Back to Top</a></span>
+            <ul class="bottom-navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#portfolio-section">Portfolio</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </div><!--END FOOTER-->
+    </div><!--END WRAPPER-->
+</body>
+</html>
