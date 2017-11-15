@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.6;
     margin: 0;
     background: #d9d9d9;
@@ -82,7 +82,7 @@ BASE LAYOUT STYLES
 .container-intro {
     color: grey;
     padding: 1em;
-    font-size: .8em;
+    font-size: .9em;
     font-weight: 100;
     margin-bottom: 0;
 }
@@ -103,7 +103,7 @@ BASE LAYOUT STYLES
 
 
 .portfolio {
-    background: blue;
+    background: #a6a6a6;
     width: 100%;
     margin: 0 auto;
     padding-bottom: 1em;
@@ -130,7 +130,7 @@ BASE LAYOUT STYLES
 
 .portfolio p {
     padding: 0 1em;
-    font-size: .8em;
+    font-size: .9em;
 }
 
 /*CONTAINERS*/
@@ -157,7 +157,7 @@ BASE LAYOUT STYLES
     color: #a6a6a6;
     padding-right: 1em;
     padding-left: 1em;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .footer {
